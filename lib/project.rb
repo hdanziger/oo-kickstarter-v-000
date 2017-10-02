@@ -3,6 +3,7 @@ class Project
 
   def initialize
     @backers = []
+    backers << project
     @name = name
   end
 end
